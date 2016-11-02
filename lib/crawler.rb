@@ -19,4 +19,16 @@ class WebCrawler
       puts "ERROR: #{error_message}"
     end
   end
+
+  def check(url)
+    data = File.read(@file)
+    urls = data.split
+    return true unless urls.include? url
+  end
+
+  def fetch_database_urls
+    active_urls = File.read(@file)
+    urls = active_urls.split
+    return urls
+  end
 end
