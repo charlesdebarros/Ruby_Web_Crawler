@@ -4,7 +4,7 @@ In order to run the web crawler script:
 
 * Clone this repo
 * cd into the repo folder
-* create a urls.txt (or any other txt name file)
+* create a urls.txt file (the crawler will look for this file name)
   * From terminal, type touch lib/urls.txt
 * open the urls.txt file and type the URL you would like to crawler
   * Example: <code>https://github.com</code>
