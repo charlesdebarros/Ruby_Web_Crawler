@@ -1,4 +1,11 @@
-### Ruby_Web_Crawler
+## Ruby_Web_Crawler
+
+### Technologies used
+
+* **[Ruby](https://www.ruby-lang.org/en/downloads/)** 2.3.1
+* **[Mechanize](https://github.com/sparklemotion/mechanize)** (gem) 2.7.5
+
+  * If the Mechanize gem is not installed, please install it by running <code>gem install mechanize</code>
 
 In order to run the web crawler script:
 
