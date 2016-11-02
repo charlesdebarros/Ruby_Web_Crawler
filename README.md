@@ -12,3 +12,10 @@ In order to run the web crawler script:
   * Save the file
 * run the script by typing ''<code>ruby lib/crawler.rb</code>''
 * Check the URLs parsed in the lib/ursl.txt file
+
+### TODO
+
+* Refactor script
+  * Break down crawl method.
+  * Make script create a file to store URLs if file does not exist
+  * Ask for user to input site to be crawled instead of having to edit the urls.txt file
