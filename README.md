@@ -11,6 +11,7 @@ In order to run the web crawler script:
 
 * Clone this repo
 * cd into the repo folder
+* run <code>bundle install</code>
 * create a urls.txt file (the crawler will look for this file name)
   * From terminal, type touch lib/urls.txt
 * open the urls.txt file and type the URL you would like to crawler
