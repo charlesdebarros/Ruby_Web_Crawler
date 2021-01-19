@@ -51,7 +51,7 @@ class WebCrawler
           case scraped_url[0..4]
           when 'https' || 'http:' || 'ftp:/'
             save_site_crawl(scraped_url)
-            puts "Chacked: #{scraped_url}\n--------------------\n"
+            puts "Checked: #{scraped_url}\n--------------------\n"
           else
             url_split = url_to_crawl.split('/')
             if scraped_url[0] == '/'
