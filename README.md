@@ -2,8 +2,8 @@
 
 ### Technologies used
 
-* **[Ruby](https://www.ruby-lang.org/en/downloads/)** 2.6.X
-* **[Mechanize](https://github.com/sparklemotion/mechanize)** (gem) 2.7.X
+* **[Ruby](https://www.ruby-lang.org/en/downloads/)** 2.7.X
+* **[Mechanize](https://github.com/sparklemotion/mechanize)** (gem) 2.8.X
 
   * If the Mechanize gem is not installed, please install it by running <code>gem install mechanize</code>
 
